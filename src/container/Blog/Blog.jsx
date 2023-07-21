@@ -1,0 +1,94 @@
+import React, { useState } from "react";
+import { images } from "../../constants";
+import "./Blog.css";
+
+const Blog = () => {
+  const [posts, setPosts] = useState([
+    {
+      id: 1,
+      title: "Hello, World!",
+      content: "This is my first blog post.",
+    },
+    {
+      id: 2,
+      title: "React Hooks",
+      content: "Using hooks in React makes state management easier.",
+    },
+  ]);
+
+  const [newPost, setNewPost] = useState({
+    title: "",
+    content: "",
+  });
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setNewPost({
+      ...newPost,
+      [name]: value,
+    });
+  };
+
+  const handleAddPost = () => {
+    if (newPost.title && newPost.content) {
+      setPosts([...posts, { ...newPost, id: Date.now() }]);
+      setNewPost({
+        title: "",
+        content: "",
+      });
+    }
+  };
+
+  return (
+    <div className="app__blog app__bg flex__center section__padding" id="blog">
+      <div className="app__blog-content flex__center">
+        <div className="app__blog-content_post">
+          <h1 className="headtext__cormorant">Blog</h1>
+          <div className="app__blog-content">
+            {posts.map((post) => (
+              <div key={post.id} className="post">
+                <h2 className="p__cormorant">{post.title}</h2>
+                <p className="p__opensans">{post.content}</p>
+              </div>
+            ))}
+          </div>
+          <div className="app__blog-content_forum flex__center">
+            <h2 className="p__cormorant">Add a New Post</h2>
+            <br />
+            <form className="app__blog-content_form">
+              <label className="p__opensans">
+                Title:
+                <br />
+                <input
+                  type="text"
+                  name="title"
+                  value={newPost.title}
+                  onChange={handleInputChange}
+                />
+              </label>
+              <label className="p__opensans">
+                Content:
+                <br />
+                <textarea
+                  name="content"
+                  value={newPost.content}
+                  onChange={handleInputChange}
+                />
+              </label>
+              <br />
+              <button
+                type="button"
+                className="custom__button"
+                onClick={handleAddPost}
+              >
+                Add Post
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Blog;

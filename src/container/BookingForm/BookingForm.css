@@ -2,10 +2,14 @@
   padding: 2rem 4rem;
   border: 1px solid var(--color-golden);
   background: var(--color-black);
+  display: flex;
+  flex-direction: column;
 }
 
 .app__newsletter-heading {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .app__newsletter-input {

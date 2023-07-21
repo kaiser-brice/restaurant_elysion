@@ -56,6 +56,62 @@ const cocktails = [
   },
 ];
 
+const desserts = [
+  {
+    title: "Tropical Coconut Pie",
+    price: "$9.90",
+    tags: "Pineapple| Coconut | WHipped Cream | Marshmallow",
+  },
+  {
+    title: "Sunny Citrus Cheesecake",
+    price: "$7.89",
+    tags: "Orange| Lemon | Slice of lime",
+  },
+  {
+    title: "Mango Marshmallow",
+    price: "$11",
+    tags: "Mango| Coconut | Marshmallow",
+  },
+  {
+    title: "Hawaiian Dream Cookies",
+    price: "$12",
+    tags: "Pineapple| Lemon | Icing sugar",
+  },
+  {
+    title: "Tropical Cranberry Cobbler",
+    price: "$10.50",
+    tags: "Cranberry| Coconut | Pineapple | Orange",
+  },
+];
+
+const meals = [
+  {
+    title: "Avocado and Shrimp",
+    price: "$45",
+    tags: "Homemade Guacamole| Grilled Shrimp | Onions| Red pepper",
+  },
+  {
+    title: "Filet Mignon",
+    price: "$70",
+    tags: "Sterling Silver Beef | aged 21 days | barbecue sauce",
+  },
+  {
+    title: "Salmon Filet",
+    price: "$60",
+    tags: "Atlantic Salmon | White butter sauce | Jasmine Rice",
+  },
+  {
+    title: "Fish N Ships",
+    price: "$35",
+    tags: "Savage Cod | Sliced pickles | Fries",
+  },
+  {
+    title: "Baby Back Ribs",
+    price: "$50",
+    tags: "Ribs | Homemade Barbecue Sauce | Fries",
+  },
+];
+
 const awards = [
   {
     imgUrl: images.award02,
@@ -79,4 +135,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { wines, cocktails, desserts, meals, awards };

@@ -17,9 +17,14 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
+          Welcome to Elysion - a culinary journey to paradise! At Elysion, we
+          believe that dining is not merely a meal; it's an immersive experience
+          that takes you on a blissful expedition through flavors, aromas, and
+          textures. Our restaurant is an oasis of culinary delights, where
+          passion for food converges with exquisite craftsmanship to create
+          unforgettable moments for every guest. Established with a dream to
+          transport our patrons to gastronomic nirvana, Elysion represents the
+          epitome of culinary excellence.
         </p>
         <button type="button" className="custom__button">
           Know More
@@ -34,9 +39,13 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
-          Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
-          odio nec aliquet.
+          In the vibrant heart of the city, a hidden gem named Elysion blossomed
+          in 2010, seemingly born from the myths of old. Chef Kevin Luo, a
+          culinary virtuoso with an adventurous spirit, dared to weave a
+          modern-day culinary paradise. Inspired by the ethereal Elysian Fields
+          of Greek legend, where souls found eternal bliss, Chef Luo set out to
+          create a haven where food aficionados could discover their own nirvana
+          through the art of dining.
         </p>
         <button type="button" className="custom__button">
           Know More

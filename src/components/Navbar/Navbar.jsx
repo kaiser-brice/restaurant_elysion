@@ -27,7 +27,7 @@ const Navbar = () => {
               <a href="#menu">Cocktails</a>
             </li>
             <li className="p__opensans">
-              <a href="#menu">Food</a>
+              <a href="#food_menu">Food</a>
             </li>
           </div>
         </div>
@@ -44,10 +44,10 @@ const Navbar = () => {
       </ul>
       <div className="app__navbar-login">
         <a href="#login" className="p__opensans">
-          Log In / Registration
+          Subscribe
         </a>
         <div />
-        <a href="/" className="p__opensans">
+        <a href="#booking" className="p__opensans">
           Book Table
         </a>
       </div>
@@ -83,10 +83,14 @@ const Navbar = () => {
                 </li>
                 <div class="dropdown-content">
                   <li className="p__opensans">
-                    <a href="#menu">Cocktails</a>
+                    <a href="#menu" onClick={() => setToggleMenu(false)}>
+                      Cocktails
+                    </a>
                   </li>
                   <li className="p__opensans">
-                    <a href="#menu">Food</a>
+                    <a href="#foodmenu" onClick={() => setToggleMenu(false)}>
+                      Food
+                    </a>
                   </li>
                 </div>
               </div>
@@ -102,7 +106,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a href="#blog" onClick={() => setToggleMenu(false)}>
-                  Contact
+                  Blog
                 </a>
               </li>
             </ul>
