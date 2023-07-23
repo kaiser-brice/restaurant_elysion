@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { images } from "../../constants";
 import "./Blog.css";
+import { useTranslation } from "react-i18next";
 
 const Blog = () => {
+  const { t } = useTranslation();
   const [posts, setPosts] = useState([
     {
       id: 1,
@@ -43,7 +45,7 @@ const Blog = () => {
     <div className="app__blog app__bg flex__center section__padding" id="blog">
       <div className="app__blog-content flex__center">
         <div className="app__blog-content_post">
-          <h1 className="headtext__cormorant">Blog</h1>
+          <h1 className="headtext__cormorant">{t("blog.heading")}</h1>
           <div className="app__blog-content">
             {posts.map((post) => (
               <div key={post.id} className="post">
@@ -53,11 +55,11 @@ const Blog = () => {
             ))}
           </div>
           <div className="app__blog-content_forum flex__center">
-            <h2 className="p__cormorant">Add a New Post</h2>
+            <h2 className="p__cormorant">{t("blog.subheading")}</h2>
             <br />
             <form className="app__blog-content_form">
               <label className="p__opensans">
-                Title:
+                {t("blog.username")}
                 <br />
                 <input
                   type="text"
@@ -67,7 +69,7 @@ const Blog = () => {
                 />
               </label>
               <label className="p__opensans">
-                Content:
+                {t("content")}
                 <br />
                 <textarea
                   name="content"
@@ -81,7 +83,7 @@ const Blog = () => {
                 className="custom__button"
                 onClick={handleAddPost}
               >
-                Add Post
+                {t("blog.add")}
               </button>
             </form>
           </div>

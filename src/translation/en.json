@@ -1,0 +1,118 @@
+{
+  "translation": {
+    "navbar": {
+      "link1": "Home",
+      "link2": "About",
+      "link3": "Menu",
+      "link4": "Cocktails",
+      "link5": "Meal",
+      "link6": "Awards",
+      "link7": "Contact",
+      "link8": "Blog",
+      "link9": "Subscribe",
+      "link10": "Book a Table"
+    },
+
+    "header": {
+      "subheading": "Chase the New Flavour",
+      "heading": "The Key to Fine Dining",
+      "content": "Savor the Extraordinary: Where Culinary Dreams Come True! ",
+      "button": "Explore Menu"
+    },
+
+    "about": {
+      "aboutus": "About Us",
+      "aboutuscontent": "Welcome to Elysion - a culinary journey to paradise! At Elysion, we believe that dining is not merely a meal; it's an immersive experience that takes you on a blissful expedition through flavors, aromas, and textures. Our restaurant is an oasis of culinary delights, where passion for food converges with exquisite craftsmanship to create unforgettable moments for every guest. Established with a dream to transport our patrons to gastronomic nirvana, Elysion represents the epitome of culinary excellence.",
+      "history": "Our History",
+      "historycontent": "In the vibrant heart of the city, a hidden gem named Elysion blossomed in 2010, seemingly born from the myths of old. Chef Kevin Luo, a culinary virtuoso with an adventurous spirit, dared to weave a modern-day culinary paradise. Inspired by the ethereal Elysian Fields of Greek legend, where souls found eternal bliss, Chef Luo set out to create a haven where food aficionados could discover their own nirvana through the art of dining."
+    },
+
+    "menu": {
+      "subheading": "Menu that fits your palatte",
+      "heading": "Special Desserts and Meals ",
+      "heading2": "Desserts",
+      "heading3": "Meals",
+      "button": "View More"
+    },
+
+    "chef": {
+      "subheading": "Chef's word",
+      "heading": "What we believe in",
+      "content1": "As chefs, we cook to please people, to nourish people.",
+      "content2": "Cooking is an art that brings joy to the soul and nourishment to the body. Through passion, creativity, and attention to detail, a chef transforms ingredients into a symphony of flavors that delight the senses and create lasting memories.",
+      "name": "Kevin Luo",
+      "title": "Chef & Founder"
+    },
+
+    "laurel": {
+      "subheading": "Awards & Recognition",
+      "heading": "Our Laurels"
+    },
+
+    "gallery": {
+      "subheading": "Instagram",
+      "heading": "Photo Gallery",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.",
+      "button": "View More"
+    },
+
+    "blog": {
+      "heading": "Blog",
+      "subheading": "Add a New Post",
+      "username": "@username",
+      "content": "Comment",
+      "add": "Add post"
+    },
+
+    "booking": {
+      "subheading": "Booking Form",
+      "heading": "Reserve Now!",
+      "successprompt": "Booking successful! We look forward to seeing you.",
+      "email": "Email:",
+      "fullname": "Full Name:",
+      "phone": "Phone:",
+      "date": "Date:",
+      "time": "Time:",
+      "number": "Number of People: ",
+      "submit": "Submit"
+    },
+
+    "findus": {
+      "subheading": "Contact",
+      "heading": "Find Us",
+      "content": "Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 75G",
+      "heure": "Opening Hours",
+      "time1": "Mon - Fri: 10:00 am - 02:00 am",
+      "time2": "Sat - Sun: 10:00 am - 03:00 am",
+      "visit": "Visit Us"
+    },
+
+    "map": {
+      "heading": "Location"
+    },
+
+    "newsletter": {
+      "subheading": "Newsletter",
+      "heading": "Subscribe To Our Newsletter",
+      "content": "And never miss latest Updates!",
+      "email": "Place your email here",
+      "validate": "Subscribe"
+    },
+
+    "footer": {
+      "contact": "Contact Us",
+      "content1": "9 W 53rd St, New York, NY 10019, USA",
+      "content2": "+1 212-344-1230",
+      "content3": "+1 212-555-1230",
+      "content4": "'The best way to find yourself is to lose yourself in the service of others'",
+      "hours": "Working Hours",
+      "hour1": "Monday-Friday:",
+      "hour2": "08:00 am - 12:00 am",
+      "hour3": "Saturday-Sunday:",
+      "hour4": "07:00 am - 11:00 pm",
+      "copyright": "2023 Elysion. All Rights reserved."
+    },
+
+    "lang": "English"
+  }
+}

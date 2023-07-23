@@ -1,0 +1,118 @@
+{
+  "translation": {
+    "navbar": {
+      "link1": "Acceuil",
+      "link2": "À propos",
+      "link3": "Menu",
+      "link4": "Cocktails",
+      "link5": "Repas",
+      "link6": "Primes",
+      "link7": "Contact",
+      "link8": "Blog",
+      "link9": "Abonnes-toi",
+      "link10": "Réservez une Table"
+    },
+
+    "header": {
+      "subheading": "Cherchez la nouvelle saveur",
+      "heading": "La clé de la gastronomie",
+      "content": "Savourez l'extraordinaire : Là où les rêves culinaires deviennent réalité !",
+      "button": "Explorer le menu"
+    },
+
+    "about": {
+      "aboutus": "À propos de Nous",
+      "aboutuscontent": "Bienvenue à Elysion - un voyage culinaire au paradis ! À Elysion, nous pensons que manger n'est pas simplement un repas ; c'est une expérience immersive qui vous emmène dans une expédition béate à travers les saveurs, les arômes et les textures. Notre restaurant est une oasis de délices culinaires, où la passion pour la nourriture converge avec un savoir-faire exquis pour créer des moments inoubliables pour chaque convive. Créé avec le rêve de transporter nos clients au nirvana gastronomique, Elysion représente le summum de l'excellence culinaire.",
+      "history": "Notre Histoire",
+      "historycontent": "Dans le cœur vibrant de la ville, un joyau caché nommé Elysion a fleuri en 2010, apparemment né des mythes d'antan. Le chef Kevin Luo, virtuose culinaire à l'esprit aventureux, a osé créer un paradis culinaire des temps modernes. Inspiré par les champs élyséens de la légende grecque, où les âmes trouvaient la félicité éternelle, le chef Luo a décidé de créer un havre où les amateurs de cuisine pourraient découvrir leur propre nirvana à travers l'art de la table."
+    },
+
+    "menu": {
+      "subheading": "Un menu adapté à votre palais",
+      "heading": "Desserts et plats spéciaux ",
+      "heading2": "Desserts",
+      "heading3": "Repas",
+      "button": "Voir Plus"
+    },
+
+    "chef": {
+      "subheading": "Mot du Chef",
+      "heading": "Nos convictions",
+      "content1": "En tant que chefs, nous cuisinons pour faire plaisir aux gens, pour les nourrir.",
+      "content2": "La cuisine est un art qui apporte de la joie à l'âme et de la nourriture au corps. Grâce à sa passion, à sa créativité et à son souci du détail, le chef transforme les ingrédients en une symphonie de saveurs qui ravissent les sens et créent des souvenirs impérissables.",
+      "name": "Kevin Luo",
+      "title": "Chef et fondateur"
+    },
+
+    "laurel": {
+      "subheading": "Prix et reconnaissance",
+      "heading": "Nos lauriers"
+    },
+
+    "gallery": {
+      "subheading": "Instagram",
+      "heading": "Gallerie Photo",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.",
+      "button": "Voir plus"
+    },
+
+    "blog": {
+      "heading": "Blog",
+      "subheading": "Ajouter un nouveau Post",
+      "username": "@utilisateur",
+      "content": "Commentaire",
+      "add": "Ajouter un post"
+    },
+
+    "booking": {
+      "subheading": "Formulaire de Réservation",
+      "heading": "Reserver Maintenant!",
+      "successprompt": "Réservation réussie ! Nous vous attendons avec impatience.",
+      "email": "Email:",
+      "fullname": "Nom Complet:",
+      "phone": "Téléphone:",
+      "date": "Date:",
+      "time": "Heure:",
+      "number": "Nombre de personnes: ",
+      "submit": "Soumettre"
+    },
+
+    "findus": {
+      "subheading": "Contact",
+      "heading": "Trouves Nous",
+      "content": "Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 75G",
+      "heure": "Heures D'Ouvertures",
+      "time1": "Lun - Ven: 10:00  - 02:00",
+      "time2": "Sam - Dim: 10:00  - 03:00 ",
+      "visit": "Visitez notre site"
+    },
+
+    "map": {
+      "heading": "Lieu"
+    },
+
+    "newsletter": {
+      "subheading": "Newsletter",
+      "heading": "Souscrire à notre Newsletter",
+      "content": "Et ne manquez jamais les dernières mises à jour !",
+      "email": "Placez votre email ici",
+      "validate": "Souscrire"
+    },
+
+    "footer": {
+      "contact": "Contactez Nous",
+      "content1": "9 W 53rd St, New York, NY 10019, USA",
+      "content2": "+1 212-344-1230",
+      "content3": "+1 212-555-1230",
+      "content4": "'La meilleure façon de se retrouver est de se perdre au service des autres.'",
+      "hours": "Heures de travail",
+      "hour1": "Lundi-Vendredi:",
+      "hour2": "08:00  - 00:00 ",
+      "hour3": "Samedi-Dimanche:",
+      "hour4": "07:00  - 23:00 ",
+      "copyright": "2023 Elysion. Tous droits réservés."
+    },
+
+    "lang": "Français"
+  }
+}

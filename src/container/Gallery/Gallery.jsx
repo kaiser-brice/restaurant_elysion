@@ -8,6 +8,7 @@ import {
 import { SubHeading } from "../../components";
 import { images } from "../../constants";
 import "./Gallery.css";
+import { useTranslation } from "react-i18next";
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
@@ -21,22 +22,22 @@ const Gallery = () => {
       current.scrollLeft += 300;
     }
   };
+  const { t } = useTranslation();
 
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
-        <SubHeading title="Instagram" />
-        <h1 className="headtext__cormorant">Photo Gallery</h1>
+        <SubHeading title={t("gallery.subheading")} />
+        <h1 className="headtext__cormorant">{t("gallery.heading")}</h1>
         <p
           className="p__opensans"
           style={{ color: "#AAAAAA", marginTop: "2rem" }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-          mattis ipsum turpis elit elit scelerisque egestas mu.
+          {t("gallery.content")}
         </p>
         <button type="button" className="custom__button">
           <a href="https://www.instagram.com/p/CrylEwwr9-L/?next=%2Fjccapel%2F">
-            View More
+            {t("gallery.button")}
           </a>
         </button>
       </div>

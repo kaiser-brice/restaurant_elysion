@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { SubHeading } from "../../components";
+import { useTranslation } from "react-i18next";
 
 const BookingForm = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     email: "",
     fullName: "",
@@ -62,23 +64,21 @@ const BookingForm = () => {
   const minDate = today.toISOString().split("T")[0]; // Convert to the format "YYYY-MM-DD"
 
   return (
-    <div className="app__newsletter .app_bg">
+    <div className="app__newsletter .app_bg" id="booking">
       <div className="app__newsletter-heading">
-        <SubHeading title="Booking Form" />
-        <h1 className="headtext__cormorant">Reserve Now!</h1>
+        <SubHeading title={t("booking.subheading")} />
+        <h1 className="headtext__cormorant">{t("booking.heading")}</h1>
       </div>
       {bookingSuccess ? (
         <div>
-          <p className="headtext__cormorant">
-            Booking successful! We look forward to seeing you.
-          </p>
+          <p className="headtext__cormorant">{t("booking.successprompt")}</p>
         </div>
       ) : (
         <div className="app__newsletter-heading booking_form ">
           <form className="booking_form" onSubmit={handleSubmit}>
             <div>
               <br />
-              <label className="p__opensans">Email: </label>
+              <label className="p__opensans">{t("booking.email")} </label>
               <input
                 type="email"
                 name="email"
@@ -90,7 +90,7 @@ const BookingForm = () => {
             </div>
             <div>
               <br />
-              <label className="p__opensans">Full Name: </label>
+              <label className="p__opensans">{t("booking.fullname")} </label>
               <input
                 type="text"
                 name="fullName"
@@ -102,7 +102,7 @@ const BookingForm = () => {
             </div>
             <div>
               <br />
-              <label className="p__opensans">Phone: </label>
+              <label className="p__opensans">{t("booking.phone")} </label>
               <input
                 type="tel"
                 name="phone"
@@ -114,7 +114,7 @@ const BookingForm = () => {
             </div>
             <div>
               <br />
-              <label className="p__opensans">Date: </label>
+              <label className="p__opensans">{t("booking.date")} </label>
               <input
                 type="date"
                 name="date"
@@ -126,7 +126,7 @@ const BookingForm = () => {
             </div>
             <div>
               <br />
-              <label className="p__opensans">Time: </label>
+              <label className="p__opensans">{t("booking.time")} </label>
               <input
                 type="time"
                 name="time"
@@ -137,7 +137,7 @@ const BookingForm = () => {
             </div>
             <div>
               <br />
-              <label className="p__opensans">Number of People: </label>
+              <label className="p__opensans">{t("booking.number")}</label>
               <input
                 type="number"
                 name="numberOfPeople"
@@ -150,7 +150,7 @@ const BookingForm = () => {
             </div>
             <br />
             <button type="submit" className="custom__button">
-              Submit
+              {t("booking.submit")}
             </button>
           </form>
         </div>
